@@ -1,0 +1,138 @@
+body{
+    font-family: sans-serif;
+}
+
+#indegogoform {
+    margin-top: 50px;
+    width: 30%;
+    margin: auto;
+    background-color: white;
+    /* border: 1px solid #757575; */
+    padding: 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    margin-bottom: 50px;
+}
+
+#indegogoform>div:first-child {
+    display: flex;
+    flex-direction: column;
+}
+
+#indegogoform>div>h1 {
+    text-align: center;
+    line-height: 2px;
+    font-size: 40px;
+}
+
+#indegogoform>div>h3 {
+    text-align: center;
+    line-height: 0px;
+    color: #757575;
+    margin-bottom: 20px;
+    line-height: 10px;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+#indegogoform>div>label {
+    font-size: 25px;
+    color: #757575;
+    padding-top: 20px;
+    padding-bottom: 7px;
+    padding-left: 42px;
+}
+#indegogoform>div>input{
+    margin: auto;
+    width: 80%;
+    padding: 15px;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+#checkboxa {
+    /* width: 20px; */
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    
+}
+
+#checkboxa>div:first-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+#checkboxpa {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: normal;
+    color: #757575;
+;
+    
+
+}
+
+#terms{
+    margin-left: 42px;
+    height: 30px;
+    width: 30px
+}
+
+#checkboxpa>p>a {
+    font-size: 22px;
+    color: #e51075;
+    text-decoration: underline;
+}
+#indegogoform>:nth-child(4)>div>button{
+    padding: 20px;
+    font-size: 16px;
+    width: 100%;
+    background-color: #e51075;
+    color: white;
+    border: none;
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+#signup{
+    margin: auto;
+    width: 85%;
+
+}
+#indegogoform>:nth-child(4)>div{
+    text-align: center;
+}
+
+#or{
+    padding: 20px;
+    color: #6a6a6a;
+    font-size: 24px;
+}
+#fb{
+    margin: auto;
+    /* padding: 6x; */
+    /* margin-top: 12px; */
+    /* font-size: 190px; */
+    width: 85%;
+    height: 60px;
+    /* background-color: #405c9d; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+#fb img{
+    width: 100%;
+    height: 100%;
+}
+
+#nopermission{
+    padding-top: 10px;
+}
+#indegogoform>div:last-child>p{
+    text-align: center;
+    font-size: 22px;
+    font-weight: normal;
+    color: #757575;
+}
+#indegogoform>div:last-child>p>a{
+    color: black;
+}

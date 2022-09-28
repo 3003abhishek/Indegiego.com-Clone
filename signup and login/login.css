@@ -1,0 +1,124 @@
+body{
+    font-family: sans-serif;
+}
+
+#indegogoform {
+    margin-top: 50px;
+    width: 30%;
+    margin: auto;
+    background-color: white;
+    /* border: 1px solid #757575; */
+    padding: 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    margin-bottom: 50px;
+}
+
+#indegogoform>div:first-child {
+    display: flex;
+    flex-direction: column;
+}
+
+#indegogoform>div>h1 {
+    text-align: center;
+    line-height: 2px;
+    font-size: 40px;
+}
+
+#indegogoform>div>h3 {
+    text-align: center;
+    line-height: 0px;
+    color: #757575;
+    margin-bottom: 20px;
+    line-height: 10px;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+#indegogoform>div>label {
+    padding-left: 42px;
+    width: 80%;
+    font-size: 22px;
+    color: #757575;
+    padding-top: 20px;
+    padding-bottom: 7px;
+}
+#indegogoform>div>input{
+    margin: auto;
+    width: 80%;
+    padding: 15px;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+#forgot h3{
+    text-align: left;
+    margin-left: 340px;
+    padding-bottom: 20px;
+}
+
+ a{
+    color: black;
+    font-family: sans-serif;
+    font-size: 17px;
+
+}
+
+#warn{
+    text-align: center;
+    color: red;
+    font-size: 18px;
+}
+#login{
+    margin: auto;
+    /* width: 0% */
+    width: 85%;
+    padding: 15px;
+}
+#loginbtn{
+   
+    padding: 20px;
+    font-size: 16px;
+    width: 100%;
+    background-color: #e51075;
+    color: white;
+    border: none;
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+
+#or{
+    text-align: center;
+    padding: 20px;
+    color: #6a6a6a;
+    font-size: 24px;
+}
+#fb{
+    margin: auto;
+    /* padding: 6x; */
+    /* margin-top: 12px; */
+    /* font-size: 190px; */
+    width: 85%;
+    height: 60px;
+    /* background-color: #405c9d; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+#fb img{
+    width: 100%;
+    height: 100%;
+}
+
+#nopermission{
+    text-align: center;
+    margin: auto;
+    padding-top: 10px;
+}
+#indegogoform>div:last-child>p{
+    text-align: center;
+    font-size: 24px;
+    font-weight: normal;
+    color: #757575;
+}
+#indegogoform>div:last-child>p>a{
+    color: black;
+}
