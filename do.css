@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "benton-sans","Helvetica","sans-serif";
+}
+
+#top_div{
+    width: 100%;
+    border: 1px solid black;
+    margin-top: 70px;
+    height: 440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-image: url(https://c1.iggcdn.com/indiegogo-media-prod-cld/image/upload/v1/what_we_do/hero_desktop.png); */
+    background-image: url("https://c1.iggcdn.com/indiegogo-media-prod-cld/image/upload/v1/what_we_do/hero_desktop.png");
+    text-align: center;
+    
+}
+
+#top_div>#content{
+    height: 200px;
+    width: 65%;
+    margin: auto;
+    /* border: 2px solid red; */
+    box-sizing: border-box;
+    color: #2a2a2a;
+    text-align: center;
+    margin-right: 300px;
+}
+#top_div>#content>h1{
+    font-size: 48px;
+    font-weight: 560;
+    line-height: 65px;
+    font-family: "ff-more-web-pro","Georgia","Serif";
+    letter-spacing: 0;
+    margin: 0 auto 24px;
+    margin-bottom: 22px;
+    /* color: #2a2a2a;
+    text-align: center; */
+}
+
+#top_div>#content>p{
+    font-size: 22px;
+    margin: 0 0 10px;
+    font-weight: 500;
+    text-align: center;
+    max-width: 830px;
+    margin-left: 20px;
+    line-height: 1.42857143;
+}
+
+#video_div{
+    border: 1px solid teal;
+    width: 60%;
+    height: 500px;
+    margin: auto;
+    margin-top: 70px;
+}
+h3{
+    text-align: center;
+    font-size: 34px;
+    margin-bottom: 32px;
+    line-height: 1.4em;
+    color: #2a2a2a;
+}
+
+#intro{
+    width: 65%;
+    margin: auto;
+    text-align: center;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5em;
+    margin: 0 auto 24px auto;
+    letter-spacing: 0;
+    color: #2a2a2a;
+    box-sizing: border-box;
+}
