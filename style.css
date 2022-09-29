@@ -63,5 +63,40 @@
     border: 1px solid green;
     display:flex;
     justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
     
 }
+#bar_left{
+    display: flex;
+    gap:20px;
+    width: 30%;
+}
+#facebook_icon,#twitter_icon,#link_icon{
+width: 40px;
+height:40px;
+}
+#follow_icon{
+    width:100px;
+}
+
+#bar_right{
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.text{
+    border-right: 2px red;
+    
+}
+#container{
+    width:85%;
+    height:1000px;
+    border: 1px solid teal;
+    margin: auto;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+    
