@@ -2,119 +2,158 @@ body{
     font-family: sans-serif;
 }
 
+#cont{
+    width: 100%;
+    padding-bottom: 20px;
+    /* margin: auto; */
+}
+
+
 #indegogoform {
-    margin-top: 50px;
+    /* margin-top: 50px; */
     width: 30%;
+    height: auto;
     margin: auto;
+    /* padding-bottom: 300px; */
     background-color: white;
     /* border: 1px solid #757575; */
     padding: 50px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-    margin-bottom: 50px;
+    /* padding-bottom: 50px; */
+   
 }
 
-#indegogoform>div:first-child {
+/* #indegogoform>div:first-child {
     display: flex;
     flex-direction: column;
-}
+} */
 
-#indegogoform>div>h1 {
+#indegogoform h1 {
     text-align: center;
     line-height: 2px;
     font-size: 40px;
+    padding-bottom: 20px;
 }
 
-#indegogoform>div>h3 {
+#indegogoform h3 {
     text-align: center;
     line-height: 0px;
     color: #757575;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     line-height: 10px;
     font-weight: normal;
     font-size: 20px;
+    margin-top: 10px;
+}
+#warn{
+    color: #837272;
+    /* padding-left: 42px; */
+    font-size: large;
+}
+#cont>div{
+    /* margin: auto; */
+    padding-bottom: 20px;
+    /* margin-left: 80px; */
 }
 
-#indegogoform>div>label {
+
+#cont label {
     font-size: 25px;
     color: #757575;
-    padding-top: 20px;
-    padding-bottom: 7px;
-    padding-left: 42px;
+    padding-top: 30px;
+    padding-bottom: 70px;
+    /* padding-left: 80px; */
 }
-#indegogoform>div>input{
+#cont input{
     margin: auto;
-    width: 80%;
+    width: 94%;
     padding: 15px;
     font-size: 23px;
-    margin-bottom: 15px;
+    /* padding-left: 80px; */
+    /* margin-bottom: 15px; */
+    /* margin-top: 20px; */
+
 }
 #checkboxa {
+    /* margin-top: 20px; */
     /* width: 20px; */
     display: flex;
     flex-direction: row;
     gap: 20px;
     
+    
+}
+#checkboxa input{
+   height: 20px;
+   width: 20px;
+   color: black;
+   background-color: black;
 }
 
-#checkboxa>div:first-child {
+/* #checkboxa>div:first-child {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    
+}  */
 
+#checkboxa>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
+
 #checkboxpa {
-    font-size: 22px;
+    font-size: 20px;
     font-style: normal;
     font-weight: normal;
     color: #757575;
-;
+    
     
 
 }
 
-#terms{
-    margin-left: 42px;
-    height: 30px;
-    width: 30px
-}
-
 #checkboxpa>p>a {
-    font-size: 22px;
+    font-size: 20px;
     color: #e51075;
     text-decoration: underline;
 }
-#indegogoform>:nth-child(4)>div>button{
+#signup{
+    margin: auto;
+}
+
+#Signupindegogo{
+    margin: auto;
+    width: 99%;
     padding: 20px;
     font-size: 16px;
-    width: 100%;
+    /* width: 100%; */
     background-color: #e51075;
     color: white;
     border: none;
     cursor: pointer;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    /* padding-bottom: 20px; */
 }
-
-#signup{
-    margin: auto;
-    width: 85%;
-
-}
-#indegogoform>:nth-child(4)>div{
-    text-align: center;
-}
+/* #indegogoform>:nth-child(4)>div{
+} */
 
 #or{
-    padding: 20px;
+    text-align: center;
+    /* margin-left: 200px; */
+    /* padding: 20px; */
     color: #6a6a6a;
     font-size: 24px;
+    padding-top: 20px;
+    margin-bottom: 20px;
 }
 #fb{
-    margin: auto;
+    /* margin: auto; */
     /* padding: 6x; */
     /* margin-top: 12px; */
     /* font-size: 190px; */
-    width: 85%;
+    width: 99%;
     height: 60px;
     /* background-color: #405c9d; */
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
@@ -126,7 +165,13 @@ body{
 
 #nopermission{
     padding-top: 10px;
+    text-align: center;
+    /* padding-left: 60px; */
+    /* margin-left: 200px; */
+    color: #757575;
+    
 }
+
 #indegogoform>div:last-child>p{
     text-align: center;
     font-size: 22px;
