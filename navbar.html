@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+         $( function ()
+      {
+          $( "#dropdown" ).load( "dropdown.html" );
+      } );
+
+
+    </script>
+
+    <style>
+        #navbar{
+            width: 98%;
+            display: flex;
+            padding: 10px;
+            border-radius: 5px;
+            justify-content: space-between;
+             position: fixed;
+             z-index: 1;
+        }
+        .left{
+             text-align: center;
+            width: 45%;
+          display: flex;
+          
+          /* border: 1px solid black; */
+          
+        }
+        .right{
+           
+            width: 45%;
+            display: flex;
+            
+            
+        }
+        .what{
+            width: 150px;
+            position: relative;
+            right: 60px;
+            top: 13px;
+        }
+        .what>a{
+            
+         /* border: 1px solid red; */
+          margin-left: 4%;
+           text-decoration: none;
+           font-size: 18px;
+           color: black;
+           font-weight: bolder;
+           font-weight: 700;
+           
+            font-size: 16px;
+            font-family: benton-sans,Helvetica,"Sans-serif";;
+
+        }
+        .what>a:hover{
+            color: #E51075;
+        }
+        .left>a{
+             text-decoration: none;
+        }
+
+        .left>a>span{
+           
+            margin-left: -10px;
+            color: #E51075;
+            font-size: 32px;
+            font-family: benton-sans,Helvetica,"Sans-serif";;
+            font-weight: 900;
+            letter-spacing: -3px;
+            position: relative;
+            bottom: 5px;
+    
+        }
+        .left>a>span:hover{
+            color: #E51075;
+        }
+        #dropdown{
+            
+            font-weight: 700;
+            position: relative;
+            bottom: 5px;
+            right: 40px;
+            font-size: 16px;
+            font-family: benton-sans,Helvetica,"Sans-serif";
+            cursor: pointer;
+
+        }
+        #dropdown:hover{
+            color: #E51075;
+        }
+         
+        .search>img{
+            width: 22px;
+            position: relative;
+            right: 40px;
+            top: 12px;
+            
+        }
+        .left>input:hover{
+            color: #E51075;
+        }
+        .right{
+            display: flex;
+            justify-content: end;
+        }
+        
+
+
+        .right>a{
+            
+            margin-left: 4%;
+           text-decoration: none;
+           font-size: 18px;
+           color: black;
+           font-weight: bolder;
+           font-weight: 700;
+           position: relative;
+           bottom: -15px;
+           font-size: 16px;
+           font-family: benton-sans,Helvetica,"Sans-serif";;
+
+        }
+        .right>a:hover{
+            color: #E51075;
+        }
+
+        @media all and (min-width:320px) and (max-width:1020px){
+          
+           #navbar{
+            display: flex;
+            justify-content: space-between;
+           }
+            #dropdown{
+            display: none;
+           }
+           .what,.right{
+            display: none;
+           }
+           .search{
+            margin-left: 170%;
+           }
+          
+           
+
+       
+            
+        }
+        
+    </style>
+</head>
+<body>
+  <div id="navbar">
+    <!-- <div> <input type="text"></div> -->
+    <!-- <div class="div-1"> -->
+        
+    
+      <div class="left">
+        <a href=""><span> INDIEGOGO</span></a>
+        <div id="dropdown"></div>
+        <div class="what">
+         <a href="">What We Do</a>
+        </div>
+        <div class="search">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqM_8XO9ygbbZFl4pa9Q0tYPiICKkM0KZOCkuqwZX-rQ&s" alt="">
+        </div>
+        </div>
+    
+         <div class="right">
+        <a href="">For Entrepreneurs</a>
+        <a href="">Start a Campain</a>
+        <a href="">Log In</a>
+        <a href="">Sign Up</a>
+       </div>
+    <!-- </div> -->
+
+
+
+
+    <!-- <div id="footer">
+        <div id="main">
+           <div class="div">
+            <p>EXPLORE</p>
+            <div>
+                <a href="">Wat We Do</a>
+                <a href="">Funding</a>
+            </div>
+          </div>
+            <div class="div">
+                <p>ABOUT</p>
+                <div>
+                    <a href="">About Us</a>
+                    <a href="">Blog</a>
+                    <a href="">Trust & Saftey</a>
+                    <a href="">Help & Support</a>
+                    <a href="">Press</a>
+                    <a href="">Careers</a>
+                    <a href="">Contect</a>
+                </div>
+            </div>
+            <div class="div">
+                <p>ENTERPRENEURS</p>
+                <div>
+                    <a href="">How It Works</a>
+                    <a href="">Indiagogo vs. Kickstarter</a>
+                    <a href="">Education Center</a>
+                    <a href="">Experts Directory</a>
+                    <a href="">Fees</a>
+                    <a href="">Enterprise</a>
+                    <a href="">China</a>
+                </div>
+            </div>
+           
+        </div>
+        <div id="sign">
+            <img src="" alt="">
+            <h3>Find it first on Indiegogo</h3>
+            <p>Discover new and clever products in the Indiegogo newsletter</p>
+            <input type="text" placeholder="Your email address">
+            <input type="checkbox">
+
+        </div>
+
+    </div>
+     
+        -->
+
+ </div>
+</body>
+</html>
+<script src="navbar.js"></script>
+ <!-- <script>
+     let q1= document.getElementById("q1");
+   
+    let ans1= document.getElementById("ans1");
+   
+    let flagq1= false;
+    
+    q1.addEventListener("click", q1func);
+    function q1func(event){
+        event.preventDefault();
+        if(flagq1===false){
+            flagq1= true;
+            ans1.innerHTML="";
+            let image= document.createElement("img");
+            image.src= 
+            ans1.append(p);
+            ans1.style.display= "inline";
+            ans1.style.marginBottom= "30px";
+            document.getElementById("q1down").style.transform= "rotate(180deg)";
+        }else if(flagq1===true){
+            flagq1= false;
+            ans1.innerHTML="";
+            document.getElementById("q1down").style.transform= "rotate(0deg)";
+        }
+    }
+</script> -->
