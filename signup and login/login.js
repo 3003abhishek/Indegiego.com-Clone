@@ -19,7 +19,7 @@ class User{
         });
         if(res==true && count>0){
             alert("Login successful!")
-            // location.href="./index.html"
+            location.href="./index.html"
         }else{
             // alert("Wrong credentials")
             document.getElementById("warn").innerText="Your password or email is incorrect"
