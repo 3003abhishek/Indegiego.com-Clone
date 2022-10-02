@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up indiegogo</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <div id="indegogoform">
+        <div>
+            <h1>Welcome!</h1>
+            <h3>Sign up to join Indiegogo.</h3>
+         </div>
+        <div id="cont">
+           
+
+            <div id="margin">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" placeholder="Your Full Name">
+    
+            </div>
+
+            <div id="margin">
+                <label for="email">Email</label><br>
+                <input type="email" id="email" placeholder="Your Email">
+            </div>
+           
+           <div id="margin">
+                <label for="Password">Password</label>
+                <input type="password" id="password" placeholder="Password">
+                
+                    <p id="warn"></p>
+                
+           </div>
+
+           <div id="margin">
+                <label for="username">Username</label>
+                <input type="username" id="username" placeholder="Your Username">
+           </div>
+         
+            <div id="margin">
+                <label for="mobile">Contact Number</label>
+                <input type="number" id="mobile" placeholder="Your Contact No.">
+            </div>
+
+            <div id="margin">
+                <label for="mobile">Description</label>
+                <input type="text" id="description" placeholder="Description">
+            </div>
+
+            
+
+
+            <div id="checkboxa">
+                <div id="check">
+                    <input type="checkbox" id="terms" name="terms" value="True">
+                </div>
+                <div id="checkboxpa">
+                    Sign me up for the Indiegogo newsletter
+                </div>
+            </div>
+            <div id="checkboxa">
+                <div id="check">
+                    <input type="checkbox" id="terms" name="terms" value="True">
+                </div>
+                <div id="checkboxpa">
+                    <p>I agree to the <a href="https://www.indiegogo.com/about/terms">Terms of Use</a> and have read and
+                        understand the <a href="https://indiegogo.trsnd.co/policies">Privacy Policy</a></p>
+                </div>
+            </div>
+            <div>
+                <div id="signup">
+                    <button id="Signupindegogo" onclick="register()">CREATE ACCOUNT</button>
+                </div>
+                <div id="or">
+                    OR
+                </div>
+                <div id="fb">
+                    <a href="https://www.facebook.com/v6.0/dialog/oauth?client_id=2392863781&redirect_uri=https%3A%2F%2Fwww.indiegogo.com%2Faccounts%2Fauth%2Ffacebook%2Fcallback&response_type=code&scope=email%2Cuser_friends&state=b020b2d1470a8526818e098a93f625cda64c64f20fb8d290"><img src="https://i.ibb.co/qr2VgJG/fboriginal.png" alt="fboriginal"></a>
+                </div>
+                <div id="nopermission">
+                    <p>No Post ithout Yout Permission</p>
+                </div>
+            </div>
+            
+        </div>
+
+        
+        <div>
+            <p>Already have an account ? <a href="login.html">Log In</a></p>
+        </div>
+    </div>
+
+</body>
+</html>
+
+
+<script src="signup.js"></script>
