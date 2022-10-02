@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./campaign.css" />
+    <title>Start Campaign</title>
+  </head>
+  <body>
+    <div id="intro_div">
+      <img src="./icons/campaign_icon.png" alt="campaign icon" />
+      <h1>Let’s get ready to start your campaign!</h1>
+      <p>
+        We want to create the best onboarding for you – please fill out the
+        information below.
+        <b
+          >Your answers will be locked for this campaign and can’t be changed
+          later.</b
+        >
+      </p>
+    </div>
+
+    <div id="form_div">
+      <form id="form">
+        <label for="radio_field"><b> Who are you raising money for?</b></label
+        ><br />
+        <p class="form_p">
+          Please choose the type of account that will be receiving your funds.
+        </p>
+        <input
+          type="radio"
+          name="who"
+          id="radio_field"
+          placeholder="Individual" required
+        />
+        <p style="display: inline-flex; font-size: 20px">Individual</p>
+        <input type="radio" name="who" value="Business or Nonprofit" required />
+        <p style="display: inline-flex; font-size: 20px">
+          Business or Nonprofit
+        </p>
+        <br />
+        <label for=""> <b> Where are you located?</b></label>
+        <p class="form_p">
+          If you are raising funds as an individual, what is your country of
+          legal residence? If you are raising funds for a business, where is the
+          business headquartered? Learn more about country limitations.
+        </p>
+        <select name="" id="country">
+          <option value="">Select a residence country</option>
+          <option value="us">United States</option>
+          <option value="australia">Australia</option>
+          <option value="austria">Austria</option>
+          <option value="belgium">Belgium</option>
+          <option value="canada">Canada</option>
+          <option value="cyprus">Cyprus</option>
+          <option value="denmark">Denmark</option>
+          <option value="finland">Finland</option>
+          <option value="france">France</option>
+          <option value="germany">Germany</option>
+          <option value="ireland">Ireland</option>
+          <option value="italy">Italy</option>
+          <option value="india">India</option>
+          <option value="japan">Japan</option>
+          <option value="others">Other Countries</option>
+        </select>
+        <label for=""><b> Where is your bank?</b></label>
+        <p class="form_p">
+          Your bank account location determines the currency in which you can
+          raise funds.
+        </p>
+        <select name="" id="bank">
+            <option value="">Select a bank country</option>
+          <option value="us">United States</option>
+          <option value="other">Other countries</option>
+        </select>
+
+        <div id="disclaimer">
+          Your project will be able to raise funds in USD (US Dollar).
+        </div>
+        <button id="submitBtn">Start my campaign</button>
+      </form>
+    </div>
+
+    <div id="end">
+      <b> What countries are supported by Indiegogo? </b><br> You can start a campaign in
+      countries supported by our payment processor. Learn more about potential
+      options if your country is not supported at this time.
+    </div>
+  </body>
+</html>
+<script src="./campaign.js" type="module"></script>

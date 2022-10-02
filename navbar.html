@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <script src="https://code.jquery.com/jquery-1.10.2.js"></script> -->
+    <script>
+    //      $( function ()
+    //   {
+    //       $( "#dropdown" ).load( "dropdown.html" );
+    //   } );
+
+
+    </script>
+
+    <style>
+        #navbar{
+            width: 95%;
+            display: flex;
+            border-radius: 5px;
+            justify-content: space-between;
+            align-items: center;
+           margin-left: 20px;
+             
+        }
+        .left{
+            text-align: center;
+            width: 60%;
+            display: flex;
+           
+          
+        }
+        .right{
+           
+            width: 40%;
+            display: flex;
+            
+            
+        }
+        .what{
+            width: 150px;
+            position: relative;
+            right: -30px;
+            top: 13px;
+        }
+        .what>a{
+            
+         /* border: 1px solid red; */
+           margin-left: 4%;
+           text-decoration: none;
+           font-size: 18px;
+           color: black;
+           font-weight: bolder;
+           font-weight: 700;
+           
+           font-size: 16px;
+           font-family: benton-sans,Helvetica,"Sans-serif";;
+
+        }
+        .what>a:hover{
+            color: #E51075;
+        }
+        .left>a{
+             text-decoration: none;
+             padding: 5px;
+        }
+
+        .left>a>span{
+           
+            margin-left: -10px;
+            color: #E51075;
+            font-size: 32px;
+            font-family: benton-sans,Helvetica,"Sans-serif";;
+            font-weight: 900;
+            letter-spacing: -3px;
+            position: relative;
+            bottom: 5px;
+    
+        }
+        .left>a>span:hover{
+            color: #E51075;
+        }
+        #d1 {
+            width: 70%;
+            
+            justify-content: space-between;
+            position: absolute;
+            top: 110px;
+            background-color: #ECECED;
+            z-index: 1;
+            margin-top: -45px;
+            
+        }
+        #ddo{
+            display: none;
+        }
+      
+        /* #one:hover #d1 {
+           display: grid;
+           
+     } */
+    
+     .E1{
+        display: flex;
+     }
+     .E1>div{
+        margin: 20px;
+     }
+   
+        #one>a>span:hover{
+           color: #E51075;
+        }
+        #tech>span{
+           margin: 30px;
+        }
+        #bot{
+            display: flex;
+            margin-left: 50px;
+        }
+        #bot>div{
+            margin: 20px;
+        }
+        #bot>div>h3{
+            font-weight: 400;
+            font-size: 16px;
+        }
+
+
+/* #d1>div {
+    width: 50%;
+    text-align: left;
+}
+
+#d1>div:nth-child(2) {
+    border-left: 1px solid lightgray;
+} */
+       
+         
+        .search>img{
+            width: 22px;
+            position: relative;
+            right: -40px;
+            top: 12px;
+            
+        }
+        .left>input:hover{
+            color: #E51075;
+        }
+        .right{
+            display: flex;
+            justify-content: end;
+            position: relative;
+            bottom: 4px;
+        }
+        
+
+
+        .right>a{
+            
+            margin-left: 4%;
+           text-decoration: none;
+           font-size: 18px;
+           color: black;
+           font-weight: bolder;
+           font-weight: 700;
+           font-size: 16px;
+           font-family: benton-sans,Helvetica,"Sans-serif";;
+
+        }
+        .right>a:hover{
+            color: #E51075;
+        }
+
+        @media all and (min-width:320px) and (max-width:1120px){
+          
+           #navbar{
+            display: flex;
+            justify-content: space-between;
+           }
+            #dropdown{
+            display: none;
+           }
+           .what,.right{
+            display: none;
+           }
+           .search{
+            margin-left: 100%;
+           }
+          
+           
+
+       
+            
+        }
+        
+    </style>
+</head>
+<body>
+  <div id="navbar">
+    <!-- <div> <input type="text"></div> -->
+    <!-- <div class="div-1"> -->
+       
+    
+      <div class="left">
+        <a href=""><span > INDIEGOGO</span></a>
+        <div id="one"><div style="color:black; position: relative; top: 15px; left: 10px; font-weight: 700; text-decoration:none;"
+            ><span>Explore</span></div>
+            <div id="ddo">
+            <div id="d1">
+                <div class="E1">
+                <div >
+                <p>Explore All Projects</p>
+            <img src="https://cdn.britannica.com/76/219376-131-8501C217/artists-brushes-paints.jpg" alt="" style="width:180px; height:100px;">
+           </div>
+
+           <div>
+            <p>Our Top 10 Finds</p>
+            <img src="https://cdn.britannica.com/77/58877-050-E25F147E/Ratnasambhava-south-Dhyani-Buddha-painting-Nepalese-mahabodhisattvas.jpg?w=690&h=388&c=crop" alt="" style="width:130px; height:100px;" >
+           </div>
+           <div>
+            <p>Team Favourite</p>
+            <img src="https://cdn.britannica.com/66/43666-050-8D434E13/Orange-Yellow-oil-canvas-Mark-Rothko-NY-1956.jpg?w=690&h=388&c=crop" alt=""  style="width:130px; height:100px;">
+           </div>
+           <div>
+            <p>Spend Under $100</p>
+            <img src="https://cdn.britannica.com/84/219784-050-35729797/Woman-at-Her-Toilette-by-Berthe-Morisot-Art-Institute-of-Chicago.jpg?w=690&h=388&c=crop" alt="" style="width:130px; height:100px;" >
+           </div>
+           <div>
+            <p>Join The Convo</p>
+            <img src="https://cdn.britannica.com/67/134367-050-8D724447/Reflections-of-Clouds-on-the-Water-Lily-Pond-1920.jpg?w=690&h=388&c=crop" alt=""  style="width:130px; height:100px;">
+           </div>
+
+               
+            </div>
+            <div>
+               <div id="tech">
+                <span>TECH & INNOVATION</span>
+                <span>CREATIVE WORKS</span>
+                <span>COMMUNITY PROJECTS</span>
+
+               </div>
+               <div id="bot">
+                <div>
+                  <h3>Audio</h3>
+                  <h3>Camera Gear</h3>
+                  <h3>Education</h3>
+                  <h3>Energy & Green Tech</h3>
+                  <h3>Fashion & Wearables</h3>
+                  <h3>Food & Beverages</h3>
+                </div>
+                <div>
+                    <h3>Health & Fitness</h3>
+                    <h3>Home</h3>
+                    <h3>Phone and Accessories</h3>
+                    <h3>Productivity</h3>
+                    <h3>Transportation</h3>
+                    <h3>Travel & Outdoors</h3>
+                </div>
+                <div>
+                    <h3>Art</h3>
+                    <h3>Comics</h3>
+                    <h3>Dance & Theater</h3>
+                    <h3>Film</h3>
+                    <h3>Music</h3>
+                    <h3>Photogrphic</h3>
+                </div>
+                <div>
+                    <h3>Podcasts, Blog & Vlog</h3>
+                    <h3>Tablet Top Games</h3>
+                    <h3>Video Games</h3>
+                    <h3>Tv Shows</h3>
+                    <h3>Writting & Publishing</h3>
+                </div>
+               </div>
+            </div>
+            </div>
+        </div>
+    </div>
+        <div class="what">
+         <a href="">Our Top 10 Finds</a>
+        </div>
+        <div class="what">
+            <a href="">Team Favorites</a>
+        </div>
+        <div class="search">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqM_8XO9ygbbZFl4pa9Q0tYPiICKkM0KZOCkuqwZX-rQ&s" alt="">
+        </div>
+        </div>
+    
+         <div class="right">
+        <a href="">Start a Campain</a>
+        <a href="">What We Do</a>
+        <a href="">Log In</a>
+        <a href="">Sign Up</a>
+       </div>
+    </div>
+  
+
+
+
+
+    <div id="footer">
+        <div id="main">
+           <div>
+            <p>EXPLORE</p>
+            <div class="div">
+                <a href="">Wat We Do</a>
+                <a href="">Funding</a>
+            </div>
+          </div>
+            <div >
+                <p>ABOUT</p>
+                <div class="div">
+                    <a href="">About Us</a>
+                    <a href="">Blog</a>
+                    <a href="">Trust & Saftey</a>
+                    <a href="">Help & Support</a>
+                    <a href="">Press</a>
+                    <a href="">Careers</a>
+                    <a href="">Contect</a>
+                </div>
+            </div>
+            <div >
+                <p>ENTERPRENEURS</p>
+                <div class="div">
+                    <a href="">How It Works</a>
+                    <a href="">Indiagogo vs. Kickstarter</a>
+                    <a href="">Education Center</a>
+                    <a href="">Experts Directory</a>
+                    <a href="">Fees</a>
+                    <a href="">Enterprise</a>
+                    <a href="">China</a>
+                </div>
+            </div>
+           
+        </div>
+        <div id="main2">
+        <div id="sign">
+            <img src="https://img.freepik.com/premium-vector/pink-envelope-with-document-concept-receive-message-email-subscribe-vector_605517-38.jpg?w=740" alt="">
+            <h3>Find it first on Indiegogo</h3>
+            <p>Discover new and clever products in the Indiegogo newsletter</p>
+            <input type="text" placeholder="Your email address">
+          <div class="check">
+            <input type="checkbox">
+            <div id="terms">
+            <span>I agree to the</span>
+            <a href="">Terms of Use</a>
+            <span>and have read and understand the</span>
+            <a href="">Privacy Policy</a>
+         </div>
+          </div>
+          <button>SIGN ME UP</button>
+
+        </div>
+    </div>
+
+    </div>
+    <div id="bottemdiv">
+    <div id="bottem">
+       <input type="text" placeholder="Indian Rupee(INR)">
+      <a href="https://www.facebook.com/Indiegogo"><img src="https://cdn-icons-png.flaticon.com/128/3128/3128208.png" alt=""></a> 
+      <a href="https://twitter.com/indiegogo"><img src="https://cdn-icons-png.flaticon.com/128/733/733635.png" alt=""></a> 
+      <a href="https://www.youtube.com/indiegogo"><img src="https://cdn-icons-png.flaticon.com/128/1384/1384028.png" alt=""></a>
+       <a href="https://www.instagram.com/indiegogo/"><img src="https://cdn-icons-png.flaticon.com/128/4494/4494468.png" alt=""></a> 
+       <a href="https://www.linkedin.com/company/indiegogo/"><img src="https://cdn-icons-png.flaticon.com/128/3536/3536569.png" alt=""></a>
+       <a href="https://open.spotify.com/show/7bEdWFbpv3rKHotpDzcCV4?si=6a5cee9902214695&nd=1"><img src="https://cdn-icons-png.flaticon.com/128/3116/3116491.png" alt=""></a>
+    </div>
+    <hr>
+    <div class="end">
+    <a href="">Terms of Use</a>
+    <a href="">Privacy Policy</a>
+    <a href="">Cookie Policy</a>
+    <a href="">Do Not Sell Mu Personal In formation</a>
+    <a href="">Accessibilty</a>
+    <span>© 2022 Indiegogo, Inc. All Rights Reserved</span>
+   </div>
+</div> 
+</div>  
+       
+
+ 
+</body>
+</html>
+
+<style>
+#footer{
+    background-color: #F5F5F5;
+    padding: 50px;
+    display: flex;
+}
+#main{
+    width: 60%;
+    display: flex;
+    gap: 15%;
+   
+    
+}
+.div{
+    display: grid;
+   width: 100%;
+   
+}
+#main>div>p{
+    color: gray;
+    font-family: benton-sans,Helvetica,"Sans-serif";
+    position: relative;
+    right: 10px;
+}
+.div>a{
+    color: rgb(41, 29, 29);
+    text-decoration: none;
+    margin: 3px;
+    font-size: 18px;
+}
+#main2{
+    width: 26%;
+    margin-left: 12%;
+}
+#sign{
+    text-align: center;
+}
+#sign>img{
+    width: 60px;
+    padding-bottom: -20px;
+}
+#sign>input{
+    padding: 12px;
+    width: 80%;
+    border: none;
+    font-family: benton-sans,Helvetica,"Sans-serif";
+    margin-bottom: 10px;
+}
+#sign>p{
+    margin-left: 30px;
+    width: 80%;
+    margin-bottom: 30px;
+    font-size: 18px;
+    color: rgb(53, 41, 41);
+}
+.check{
+    display: flex;
+}
+#terms{
+    width: 80%;
+    margin-left: 10px;
+}
+.check>div>a{
+    color: #E51075;
+}
+#sign>button{
+    width: 90%;
+    height: 40px;
+    background-color: #E51075;
+    color: #F5F5F5;
+    margin-top: 25px;
+    border: none;
+}
+#bottem>input{
+    margin-left: 50px;
+    border: none;
+}
+#bottem>a>img{
+    width: 20px;
+    margin: 10px;
+    position: relative;
+    top: 15px;
+}
+.end{
+    margin-top: 30px;
+    text-align: center;
+}
+.end>a,p{
+    text-decoration: none;
+    color: rgb(21, 17, 17);
+    margin: 10px;
+}
+#bottemdiv{
+    background-color: #F5F5F5;
+    padding: 50px;
+}
+@media all and (min-width:320px) and (max-width:920px){
+     @media all and (min-width:320px) and (max-width:1120px){
+
+    #footer{
+        width: 100%;
+        display: grid;
+        text-align: center;
+        
+    }
+    #main{
+        width: 100%;
+        display: grid;
+        text-align: center;
+    }
+    #main2{
+        width: 100%;
+        display: grid;
+        text-align: center;
+    }
+    #sign{
+       
+        width: 40%;
+        margin-top: 200px;
+        margin-left: 120px;
+    }
+
+     }
+    }
+</style>
+
+
+
+
+<script src="navbar.js"></script>
+
+<script>
+    let one = document.getElementById('one');
+    let d1 = document.getElementById('ddo');
+
+  one.addEventListener('click', ()=>{
+           
+        if(d1.style.display==="none"){
+            d1.style.display="grid"
+            
+        }else{
+            d1.style.display="none"
+
+        }
+
+    }) ;
+</script>
