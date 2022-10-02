@@ -1,0 +1,123 @@
+#footer{
+    background-color: #F5F5F5;
+    padding: 50px;
+    display: flex;
+}
+#main{
+    width: 60%;
+    display: flex;
+    gap: 15%;
+   
+    
+}
+.div{
+    display: grid;
+   width: 100%;
+   
+}
+#main>div>p{
+    color: gray;
+    font-family: benton-sans,Helvetica,"Sans-serif";
+    position: relative;
+    right: 10px;
+}
+.div>a{
+    color: rgb(41, 29, 29);
+    text-decoration: none;
+    margin: 3px;
+    font-size: 18px;
+}
+#main2{
+    width: 26%;
+    margin-left: 12%;
+}
+#sign{
+    text-align: center;
+}
+#sign>img{
+    width: 60px;
+    padding-bottom: -20px;
+}
+#sign>input{
+    padding: 12px;
+    width: 80%;
+    border: none;
+    font-family: benton-sans,Helvetica,"Sans-serif";
+    margin-bottom: 10px;
+}
+#sign>p{
+    margin-left: 30px;
+    width: 80%;
+    margin-bottom: 30px;
+    font-size: 18px;
+    color: rgb(53, 41, 41);
+}
+.check{
+    display: flex;
+}
+#terms{
+    width: 80%;
+    margin-left: 10px;
+}
+.check>div>a{
+    color: #E51075;
+}
+#sign>button{
+    width: 90%;
+    height: 40px;
+    background-color: #E51075;
+    color: #F5F5F5;
+    margin-top: 25px;
+    border: none;
+}
+#bottem>input{
+    margin-left: 50px;
+    border: none;
+}
+#bottem>a>img{
+    width: 20px;
+    margin: 10px;
+    position: relative;
+    top: 15px;
+}
+.end{
+    margin-top: 30px;
+    text-align: center;
+}
+.end>a,p{
+    text-decoration: none;
+    color: rgb(21, 17, 17);
+    margin: 10px;
+}
+#bottemdiv{
+    background-color: #F5F5F5;
+    padding: 50px;
+}
+@media all and (min-width:320px) and (max-width:920px){
+     @media all and (min-width:320px) and (max-width:1120px){
+
+    #footer{
+        width: 100%;
+        display: grid;
+        text-align: center;
+        
+    }
+    #main{
+        width: 100%;
+        display: grid;
+        text-align: center;
+    }
+    #main2{
+        width: 100%;
+        display: grid;
+        text-align: center;
+    }
+    #sign{
+       
+        width: 40%;
+        margin-top: 200px;
+        margin-left: 120px;
+    }
+
+     }
+    }

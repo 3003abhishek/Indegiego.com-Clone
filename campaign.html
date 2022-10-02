@@ -5,9 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./campaign.css" />
+    <link rel="stylesheet" href="./component/navbar.css">
+    <link rel="stylesheet" href="./component/footer.css">
     <title>Start Campaign</title>
   </head>
   <body>
+    <div id="navbar"></div>
     <div id="intro_div">
       <img src="./icons/campaign_icon.png" alt="campaign icon" />
       <h1>Let’s get ready to start your campaign!</h1>
@@ -87,6 +90,23 @@
       countries supported by our payment processor. Learn more about potential
       options if your country is not supported at this time.
     </div>
+    <div id="footer"></div>
   </body>
 </html>
 <script src="./campaign.js" type="module"></script>
+
+<script type="module">
+  import {navbar} from './component/navbar.js'
+  let nav=document.getElementById("navbar");
+nav.innerHTML=navbar();
+
+
+</script>
+
+<script type="module">
+  import {footer} from './component/footer.js'
+  let foot=document.getElementById("footer");
+ 
+foot.innerHTML=footer();
+</script>
+
