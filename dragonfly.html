@@ -6,14 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-
-/* jhguhyb */
-
         #top{
-            text-align: center;
-            margin-left: -10px;
+            
+           text-align: center;
             color: #E51075;
-            display: flex;
             font-family: benton-sans,Helvetica,"Sans-serif";;
             
             box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;            padding-top: 2px;
@@ -26,17 +22,22 @@
             font-weight: 900;
             letter-spacing: -4px;
         }
-        #left{
-            width: 50%;
+        #text{
+            margin-left: 52px;
+            font-size: 23px;
         }
-        #left>h3{
-            margin-top: 40px;
-            margin-left: 60px;
+        #all{
+            width: 95%;
+            display: flex;
+            margin-left: 50px;
         }
+       
+        
         #popular{
+            width: 60%;
             display: grid;
             grid-template-columns: repeat(2,1fr);
-            margin-left: 10%;
+            
             gap: 2%;
               }
        
@@ -46,9 +47,8 @@
              }
 
         .div-1>p,h5{
-            padding-left: 15px;
+           padding-left: 20px;
             line-height: 20px;
-           
             margin: -1px;
            
            
@@ -56,23 +56,65 @@
         
 
         .div-1>img{
-            width: 100%;
+            width: 90%;
             margin-bottom: 10px;
         }
         .div-1>a>button{
-            width: 98%;
+            width: 90%;
             padding: 8px;
             margin-top: 20px;
             background-color: white;
             color:#E51075 ;
             border: 1px solid rgb(216, 208, 208)
         }
+        .div-1>a>button:hover{
+            background-color: #E51075;
+            color: antiquewhite;
+        }
+        #right{
+            width: 30%;
+        }
+        #right>div>h3{
+            font-size: 22px;
+        }
+        #div-2>h5{
+            color: #949494;
+            font-size: .875rem;
+            line-height: 1.5;
+            padding: 0;
+            font-weight: 500;
+            letter-spacing: 0;
+            font-family: benton-sans,Helvetica,"Sans-serif";
+        }
+        .total{
+            display: flex;
+            justify-content: space-between;
+        }
+        .total>p{
+            color: #949494;
+        }
+        #btn{
+            margin-top: 30px;
+        }
+        #btn>button{
+           width: 100%; 
+           padding: 15px;
+           background-color: #E51075;
+           color: aliceblue;
+           font-family: benton-sans,Helvetica,"Sans-serif";
+           font-size: 17px;
+           font-weight: 600;
+           border: #949494;
+        }
     </style>
 </head>
 <body>
     <div id="top" ><h3>INDIEGOGO</h3></div>
-    <div id="left">
+   
+    <div id="text">
     <h3>Popular Add-ons</h3>
+   </div>
+    <div id="all">
     <div id="popular">
         <div class="div-1">
             <img src="https://c3.iggcdn.com/indiegogo-media-prod-cld/image/upload/c_fit,w_254,g_center,q_auto:best,dpr_1.3,f_auto,h_192/mskud0a8udgkgoqaj3wv" alt="">
@@ -80,7 +122,7 @@
             <p>&#8377;3,900 INR</p>
             <p>&#8377;INR (14% OFF)</p> 
             <h5>Est. Shipping</h5>
-            <a href=""><button>ADD Perk</button></a>
+            <a href=""><button>ADD PERK</button></a>
         </div>
         <div class="div-1">
             <img src="https://c4.iggcdn.com/indiegogo-media-prod-cld/image/upload/c_fit,w_254,g_center,q_auto:best,dpr_1.3,f_auto,h_192/gakb1crwijyekapep9ea" alt="">
@@ -88,7 +130,7 @@
             <p>&#8377;6,803 INR</p>
             <p>&#8377;INR (11% OFF)</p>
             <h5>Est. Shipping</h5>
-            <a href=""><button>ADD Perk</button></a>
+            <a href=""><button>ADD PERK</button></a>
         </div>
         <div class="div-1">
             <img src="https://c4.iggcdn.com/indiegogo-media-prod-cld/image/upload/c_fit,w_254,g_center,q_auto:best,dpr_1.3,f_auto,h_192/qntwfqrxhv4bkiucyqkq" alt="">
@@ -96,7 +138,7 @@
             <p>&#8377;8979 INR</p>
             <p>&#8377;(17% OFF)</p>
             <h5>Est. Shipping</h5>
-            <a href=""><button>ADD Perk</button></a>
+            <a href=""><button>ADD PERK</button></a>
         </div>
         <div class="div-1">
             <img src="https://c2.iggcdn.com/indiegogo-media-prod-cld/image/upload/c_fit,w_254,g_center,q_auto:best,dpr_1.3,f_auto,h_192/pbrhu6rlqrv665bftbin" alt="">
@@ -104,7 +146,7 @@
             <p>&#8377;8979 INR</p>
             <p>&#8377;(17% OFF)</p>
             <h5>Est. Shipping</h5>
-            <a href=""><button>ADD Perk</button></a>
+            <a href=""><button>ADD PERK</button></a>
         </div>
         <div class="div-1">
             <img src="https://c2.iggcdn.com/indiegogo-media-prod-cld/image/upload/c_fit,w_254,g_center,q_auto:best,dpr_1.3,f_auto,h_192/pbrhu6rlqrv665bftbin" alt="">
@@ -112,7 +154,7 @@
             <p>&#8377;8979 INR</p>
             <p>&#8377;(17% OFF)</p>
             <h5>Est. Shipping</h5>
-            <a href=""><button>ADD Perk</button></a>
+            <a href=""><button>ADD PERK</button></a>
         </div>
         <div class="div-1">
             <img src="https://c1.iggcdn.com/indiegogo-media-prod-cld/image/upload/c_fit,w_254,g_center,q_auto:best,dpr_1.3,f_auto,h_192/x6myygdzgegtytcmsb1q" alt="">
@@ -120,7 +162,7 @@
             <p>&#8377;8979 INR</p>
             <p>&#8377;(17% OFF)</p>
             <h5>Est. Shipping</h5>
-            <a href=""><button>ADD Perk</button></a>
+            <a href=""><button>ADD PERK</button></a>
         </div>
         <div class="div-1">
             <img src="https://c0.iggcdn.com/indiegogo-media-prod-cld/image/upload/c_fit,w_254,g_center,q_auto:best,dpr_1.3,f_auto,h_192/wyriswrqzu8cbpezkmlb" alt="">
@@ -128,7 +170,7 @@
             <p>&#8377;8979 INR</p>
             <p>&#8377;(17% OFF)</p>
             <h5>Est. Shipping</h5>
-            <a href=""><button>ADD Perk</button></a>
+            <a href=""><button>ADD PERK</button></a>
         </div>
         <div class="div-1">
             <img src="https://c2.iggcdn.com/indiegogo-media-prod-cld/image/upload/c_fit,w_254,g_center,q_auto:best,dpr_1.3,f_auto,h_192/dogsyiena8h0eelzjs8u" alt="">
@@ -136,7 +178,7 @@
             <p>&#8377;8979 INR</p>
             <p>&#8377;(17% OFF)</p>
             <h5>Est. Shipping</h5>
-            <a href=""><button>ADD Perk</button></a>
+            <a href=""><button>ADD PERK</button></a>
         </div>
     </div>
 
@@ -147,18 +189,31 @@
         Dragonfly - Ride the World’s First Hyperscooter
     </h3></div>
     <p>PERKS</p>
-    <div>
+    <div id="div-2">
     <img src="https://c3.iggcdn.com/indiegogo-media-prod-cld/image/upload/c_fit,w_180,g_center,q_auto:best,dpr_1.3,f_auto,h_120/ogih9n8n0xrm8mpkqvku" alt="" style="width: 120px;">
      <h4>1x Dragonfly DF</h4>
-     <h5>Become the proud owner of the world's first hyperscooter. By ordering this perk, you're getting 1x DF version at £1,750 (that's 1,879 USD) Super Early Bird Price. You save £750 on MSRP. Note: this model is not upgradable with fenders. You'll be charged for shipping in the post-campaign survey.</h5>
+     <h5>Become the proud owner of the world's first hyperscooter. By ordering this PERK, you're getting 1x DF version at £1,750 (that's 1,879 USD) Super Early Bird Price. You save £750 on MSRP. Note: this model is not upgradable with fenders. You'll be charged for shipping in the post-campaign survey.</h5>
      <h5>Dragonfly DF (1) Tires: All terrain tires</h5>
      <h5>Estimated Delivery:</h5>
      <h5>December 2022</h5>
-     <a href="https://www.indiegogo.com/projects/dragonfly-ride-the-world-s-first-hyperscooter/payments/new#/selection">Edit perk</a>
+     <a href="https://www.indiegogo.com/projects/dragonfly-ride-the-world-s-first-hyperscooter/payments/new#/selection">Edit PERK</a>
      <h3>&#8377;8979 INR </h3>
      <span>&#8377; INR (30% OFF)</span>
     </div>
+    <div><h3>Contribution summary</h3></div>
+    <div class="total">
+        <p>Subtotal</p>
+        <p>&#8377;8979 INR</p>
+          
+    </div>
+    <div class="total">
+        <h3>ESTIMATED TOTAL</h3>
+        <h3>&#8377;8979 INR</h3>
+    </div>
+    <div id="btn"><button>PROCEED TO CHECKOUT</button></div>
+
 </div>
 </div>
+
 </body>
 </html>
