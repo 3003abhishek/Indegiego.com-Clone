@@ -1,5 +1,5 @@
 let getData=async()=>{
-    let res=await fetch("http://localhost:3000/api/products") ;
+    let res=await fetch("https://radiant-falls-41057.herokuapp.com/api/products") ;
     let data=await res.json();
     // console.log(data);
     append(data);
@@ -15,8 +15,9 @@ let append=(data)=>{
         div.className="product";
         let i=document.createElement("img");
         i.src=image;
+        i.className="product_img";
         let f=document.createElement("h4");
-        f.innerText=funding;
+        f.innerText=`FUNDING ${funding}`;
         let t=document.createElement("h3");
         t.innerText=title;
         let desc=document.createElement("p");
@@ -33,7 +34,7 @@ let append=(data)=>{
 
 
 let getCategories=async()=>{
-  let res=await fetch("http://localhost:3000/api/categories");
+  let res=await fetch("https://radiant-falls-41057.herokuapp.com/api/categories");
   let  data=await res.json();
   console.log(data);
   render(data);
