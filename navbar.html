@@ -84,21 +84,23 @@
         }
         #d1 {
             width: 70%;
-            display: none;
+            
             justify-content: space-between;
-            
-            
-        }
-        .ddown {
             position: absolute;
             top: 110px;
             background-color: #ECECED;
             z-index: 1;
-      }
-        #one:hover #d1 {
+            margin-top: -45px;
+            
+        }
+        #ddo{
+            display: none;
+        }
+      
+        /* #one:hover #d1 {
            display: grid;
            
-     }
+     } */
     
      .E1{
         display: flex;
@@ -184,7 +186,7 @@
             display: none;
            }
            .search{
-            margin-left: 130%;
+            margin-left: 100%;
            }
           
            
@@ -199,17 +201,20 @@
   <div id="navbar">
     <!-- <div> <input type="text"></div> -->
     <!-- <div class="div-1"> -->
-        
+       
     
       <div class="left">
-        <a href=""><span> INDIEGOGO</span></a>
-        <div id="one" class="bottom_links"><a style="color:black; position: relative; top: 15px; left: 10px; font-weight: 700; text-decoration:none;" href="selection.html"><span>Explore</span></a><span class="down_arrow"></span>
-            <div id="d1" class="ddown">
+        <a href=""><span > INDIEGOGO</span></a>
+        <div id="one"><div style="color:black; position: relative; top: 15px; left: 10px; font-weight: 700; text-decoration:none;"
+            ><span>Explore</span></div>
+            <div id="ddo">
+            <div id="d1">
                 <div class="E1">
                 <div >
                 <p>Explore All Projects</p>
             <img src="https://cdn.britannica.com/76/219376-131-8501C217/artists-brushes-paints.jpg" alt="" style="width:180px; height:100px;">
            </div>
+
            <div>
             <p>Our Top 10 Finds</p>
             <img src="https://cdn.britannica.com/77/58877-050-E25F147E/Ratnasambhava-south-Dhyani-Buddha-painting-Nepalese-mahabodhisattvas.jpg?w=690&h=388&c=crop" alt="" style="width:130px; height:100px;" >
@@ -272,6 +277,7 @@
             </div>
             </div>
         </div>
+    </div>
         <div class="what">
          <a href="">Our Top 10 Finds</a>
         </div>
@@ -474,35 +480,54 @@
     background-color: #F5F5F5;
     padding: 50px;
 }
+@media all and (min-width:320px) and (max-width:920px){
+     @media all and (min-width:320px) and (max-width:1120px){
+
+    #footer{
+        width: 100%;
+        display: grid;
+        text-align: center;
+        
+    }
+    #main{
+        width: 100%;
+        display: grid;
+        text-align: center;
+    }
+    #main2{
+        width: 100%;
+        display: grid;
+        text-align: center;
+    }
+    #sign{
+       
+        width: 40%;
+        margin-top: 200px;
+        margin-left: 120px;
+    }
+
+     }
+    }
 </style>
 
 
 
 
 <script src="navbar.js"></script>
- <script>
-     let q1= document.getElementById("q1");
-   
-    let ans1= document.getElementById("ans1");
-   
-    let flagq1= false;
-    
-    q1.addEventListener("click", q1func);
-    function q1func(event){
-        event.preventDefault();
-        if(flagq1===false){
-            flagq1= true;
-            ans1.innerHTML="";
-            let image= document.createElement("img");
-            image.src= 
-            ans1.append(p);
-            ans1.style.display= "inline";
-            ans1.style.marginBottom= "30px";
-            document.getElementById("q1down").style.transform= "rotate(180deg)";
-        }else if(flagq1===true){
-            flagq1= false;
-            ans1.innerHTML="";
-            document.getElementById("q1down").style.transform= "rotate(0deg)";
+
+<script>
+    let one = document.getElementById('one');
+    let d1 = document.getElementById('ddo');
+
+  one.addEventListener('click', ()=>{
+           
+        if(d1.style.display==="none"){
+            d1.style.display="grid"
+            
+        }else{
+            d1.style.display="none"
+
         }
-    }
+
+    }) ;
 </script>
